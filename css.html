@@ -1,0 +1,64 @@
+<html>
+
+<head>
+ 
+  <title>My CSS Project</title>
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css">
+
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .highlight-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #d4f1e0, #eafaf1);
+      border-left: 5px solid #27ae60;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Welcome To My CSS Project</h1>
+
+    <p>This page uses all three types of CSS: external, internal, and inline.</p>
+
+    
+    <p style="color: #e74c3c; font-weight: 600; text-align: center;">
+      This sentence is styled using inline CSS.
+    </p>
+
+    <div class="highlight-box">
+      <p>This box is styled using internal CSS (see the &lt;style&gt; tag above).</p>
+    </div>
+
+    <ul>
+      <li>External CSS: style.css</li>
+      <li>Internal CSS: inside the &lt;style&gt; tag</li>
+      <li>Inline CSS: inside the style="" attribute</li>
+    </ul>
+
+    <a href="#" class="btn">Click Me</a>
+
+    <footer>
+      <p>CSS</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
